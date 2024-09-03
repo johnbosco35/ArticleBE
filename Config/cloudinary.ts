@@ -1,7 +1,5 @@
 import { v2 as cloudinary } from "cloudinary"
-import dotenv from "dotenv"
 import { environmentVariable } from "../env/environmemt";
-dotenv.config()
 
 cloudinary.config({
 cloud_name : environmentVariable.cloud_name,
